@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    
+}
+/*h1*/
+h1{
+    font-size: 2.5em;
+    float: left;
+    margin-left: 20px;
+    margin-top:20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h1 a:visited{
+    color: black;
+}
+/*h2 - heading for names of work*/
+h2{
+    font-size: 1.5em;
+     position: fixed;
+}
+/*Navigation*/
+nav{
+    float: left;
+    margin-top:39px;
+    margin-left: 20px;
+    margin-bottom:30px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+nav a{
+    text-decoration: none;
+}
+nav a{
+    padding-right:10px
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: deepskyblue;
+}
+/*Photo gallery of work on homepage*/
+.thumbnails{
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.thumbnails img{
+    width:100%;
+    height:auto;
+    max-height: 300px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.thumbnails img:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+/*container for about/contact page*/
+.container{
+    display: -webkit-flex;
+    width: 100%
+}
+/*Individual work pages*/
+.work_photos{
+    width: 66%;
+    margin-left: 20px;
+}
+.work_photos img{
+    width: 97%;
+    height: auto;
+}
+.work_description{
+    width: 33%;
+    margin-right:20px;
+}
+.work_description p{
+    position: fixed;
+    margin-top:65px;
+    margin-right: 20px;    
+}
+/*Previous and Next buttons*/
+.buttons{
+/*    outline: solid 1px red;*/
+    position: fixed;
+    margin-top:275px;    
+}
+.buttons_disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+.buttons a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.buttons a:visited{
+    color: black;
+}
+.next_button{
+    margin-left: 20px;
+}
+/*contact heading*/
+#hello{
+    width: 50%;
+    background-color:deepskyblue;
+    color: white;
+    margin-left:10px;
+/*    margin-right: 20px;*/
+    text-align: center;
+    padding: 5% 0;
+    margin-bottom: 20px;
+}
+/*Heading for about and contact pages*/
+h3{
+    font-size: 3em;
+}
+/*About page styling*/
+#about{
+    width: 50%;
+    background-color: deepskyblue;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: white;
+}
+#about p{
+    font-size: 1.6em;
+/*    outline: solid 1px red;*/
+    font-weight: 100;
+    padding: 5% 0;
+    line-height: 2em;
+}
+/*Email link formatting*/
+.email_link{
+    text-decoration: none;
+    color: white;
+}
+#email_link:visited{
+    color:white;
+}
